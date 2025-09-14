@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PRAROJ - Shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="home.html"><img src="PRAROJ-logo.png" alt="PRAROJ logo"></a>
+
+      <nav class="nav">
+        <a href="home.html">Home</a>
+        <a href="index.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="nav" href="support.html" style="margin-right:10px;color:var(--muted);text-decoration:none">Support</a>
+        <a href="cart.html" class="cart-badge">Cart <span id="cartCount">0</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- hero -->
+  <section class="hero">
+    <div class="inner container">
+      <img src="slogan.png" alt="slogan" style="max-width:420px;margin:0 auto 10px;display:block">
+      <h1>Experience Ultimate Luxury</h1>
+      <p>Discover the exclusive collection crafted for the discerning few.</p>
+      <div style="display:flex;gap:12px;justify-content:center">
+        <a href="index.html"><button class="btn">Explore Collection</button></a>
+        <a href="home.html"><button class="btn secondary">Learn About Us</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- products -->
+  <section class="section">
+    <div class="container">
+      <div class="title">Exclusive Collection</div>
+      <p style="color:var(--muted);margin-top:6px">Handpicked luxury items—timeless design, exceptional quality.</p>
+      <div id="productsHere" class="products-grid"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <img src="Tag.png" style="max-width:210px;opacity:.9;margin-bottom:12px" alt="tag">
+      <p style="color:var(--muted)">© 2025 PRAROJ • Luxury redefined</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
